@@ -1,0 +1,183 @@
+[
+  {
+    "Claim": "Wrongful Termination",
+    "Description": "the Defendant wrongfully terminated our Client in violation of public policy and the Fair Employment and Housing Act after he exercised rights on his behalf."
+  },
+  {
+    "Claim": "Harassment and Hostile Work Environment",
+    "Description": "our Client was subjected to unlawful harassment."
+  },
+  {
+    "Claim": "Discrimination and Disparate Treatment",
+    "Description": "our Client was subjected to unlawful discrimination."
+  },
+  {
+    "Claim": "Failure to Engage in the Interactive Process and to Reasonably Accommodate",
+    "Description": "the Defendant is liable for damages because it failed to engage in the interactive process and to reasonably accommodate our Client."
+  },
+  {
+    "Claim": "Violation of California’s Paid Sick Leave Statute (Healthy Workplaces, Healthy Families Act of 2014)",
+    "Description": "the Defendant is liable for damages because it denied our Client the right to use sick time."
+  },
+  {
+    "Claim": "Meal Period and Rest Break Violations",
+    "Description": "the Defendant failed to provide our Client compliant meal periods and rest breaks because it deterred and discouraged him due to the workload and company practice."
+  },
+  {
+    "Claim": "Failure to Pay Wages Owed",
+    "Description": "the Defendant failed to pay wages earned by our Client because his paychecks were short."
+  },
+  {
+    "Claim": "Unpaid Work Off-the-Clock",
+    "Description": "the Defendant failed to pay our Client for work off-the-clock because he was required to work while not clocked in."
+  },
+  {
+    "Claim": "Unpaid Overtime",
+    "Description": "the Defendant failed to pay our Client for overtime hours worked."
+  },
+  {
+    "Claim": "Failure to Pay Reporting Time Wages Owed",
+    "Description": "the Defendant failed to pay our Client for reporting time pay wages owed."
+  },
+  {
+    "Claim": "Late Paycheck Violations",
+    "Description": "the Defendant failed to timely pay our Client paychecks for wages due."
+  },
+  {
+    "Claim": "Unreimbursed Business Expenses",
+    "Description": "the Defendant failed to reimburse our Client for business expenses."
+  },
+  {
+    "Claim": "Non-Compliant Wage Statements",
+    "Description": "the Defendant is liable for statutory penalties because it issued inaccurate wage statements due to its failure to pay our Client all wages owed."
+  },
+  {
+    "Claim": "Waiting Time Penalties",
+    "Description": "the Defendant owes our Client waiting time penalties because it failed to pay all wages owed at the time of discharge."
+  },
+  {
+    "Claim": "Misclassification as an Independent Contractor",
+    "Description": "the Defendant misclassified our Client as an independent contractor because he operated as its employee."
+  },
+  {
+    "Claim": "Misclassification as an Exempt Employee",
+    "Description": "the Defendant misclassified our Client as an exempt employee because he was salaried, but it cannot meet its burden of proof under a white-collar exemption."
+  },
+  {
+    "Claim": "Violation of California’s COVID-19 Supplemental Paid Sick Leave Law (“SPSL”)",
+    "Description": "the Defendant failed to provide our Client with paid sick leave pursuant to the SPSL."
+  },
+  {
+    "Claim": "Breach of Contract: Failure to Comply with Promised Hourly Rate",
+    "Description": "the Defendant failed to comply with its promised hourly rate in breach of its employment contract."
+  },
+  {
+    "Claim": "Breach of Contract: Failure to Pay Non-Discretionary Bonus",
+    "Description": "the Defendant failed to pay our Client his earned bonus wages."
+  },
+  {
+    "Claim": "Failure to Pay Sick Days in Violation of the Healthy Workplaces, Healthy Families Act of 2014 (“HWHFA”)",
+    "Description": "the Defendant failed to compensate our Client for accrued and used sick leave hours."
+  },
+  {
+    "Claim": "Unpaid PTO Wages",
+    "Description": "the Defendant failed to pay our Client all Paid Time Off (PTO) wages owed at the time of discharge."
+  },
+  {
+    "Claim": "Failure to Pay Minimum Wage",
+    "Description": "the Defendant failed to pay our Client minimum wages."
+  },
+  {
+    "Claim": "Failure to Pay Gratuities Earned",
+    "Description": "the Defendant failed to pay our Client gratuities earned."
+  },
+  {
+    "Claim": "Unlawful Wage Deductions",
+    "Description": "the Defendant unlawfully deducted wages from our Client."
+  },
+  {
+    "Claim": "Failure to Pay Wheels Stop Rolling Separate Pay",
+    "Description": "the Defendant failed to pay our Client for “all hours worked” including when the wheels stopped rolling."
+  },
+  {
+    "Claim": "Failure to Comply with California’s “Day of Rest” Law",
+    "Description": "the Defendant failed to provide our Client one day of rest in a workweek."
+  },
+  {
+    "Claim": "Failure to Pay Commission Wages",
+    "Description": "the Defendant failed to pay our Client his earned commission wages."
+  },
+  {
+    "Claim": "Split Shift Premium Violation",
+    "Description": "the Defendant failed to pay our Client split shift premium pay."
+  },
+  {
+    "Claim": "High Heat Rest Break Violations",
+    "Description": "the Defendant failed to put into place high heat rest break procedures."
+  },
+  {
+    "Claim": "Violation of California’s Kin Care Law (KCL)",
+    "Description": "the Defendant is liable for damages because it terminated our Client for using his accrued sick time."
+  },
+  {
+    "Claim": "Failure to Provide Written Notice of Sick Leave Available",
+    "Description": "the Defendant failed to provide written notice of sick leave available in our Client’s wage statements or a separate writing."
+  },
+  { "Claim": "Defamation", "Description": "the Defendant defamed our Client." },
+  {
+    "Claim": "Blackballing",
+    "Description": "the Defendant blackballed our Client based on slander and libel by providing malicious, untrue references to our Client’s prospective future employers."
+  },
+  {
+    "Claim": "Whistleblower Violation",
+    "Description": "the Defendant retaliated against our Client after he engaged in protected whistleblower activities."
+  },
+  {
+    "Claim": "False Imprisonment",
+    "Description": "the Defendant subjected our Client to false imprisonment."
+  },
+  {
+    "Claim": "Promissory Estoppel",
+    "Description": "the Defendant is liable because it caused our Client to detrimentally rely on an offer of continued employment that it later breached."
+  },
+  {
+    "Claim": "Violation of the Federal Families First Coronavirus Response Act (“FFCRA”)",
+    "Description": "the Defendant failed to provide our Client with paid sick leave as mandated by the FFCRA."
+  },
+  {
+    "Claim": "Federal Family Medical Leave Act (“FMLA”) and California Family Rights Act Violations (“CFRA”)",
+    "Description": "the Defendant interfered with our Client’s right to medical leave because it denied his request and failed to comply with its strict notice requirements."
+  },
+  {
+    "Claim": "WARN Act Violation",
+    "Description": "the Defendant terminated our Client in violation of California’s WARN Act."
+  },
+  {
+    "Claim": "Failure to Provide Suitable Seating",
+    "Description": "the Defendant is liable for PAGA penalties and damages because it failed to comply with California law’s requirements on suitable seating for employees."
+  },
+  {
+    "Claim": "Violation of California’s Fair Chance Act",
+    "Description": "the Defendant violated Government Code § 12952, California’s Ban the Box Law, because it failed to comply with its specific requirements applicable to applicants/employees with a criminal background."
+  },
+  {
+    "Claim": "Illegitimate Drug Test and Invasion of Privacy",
+    "Description": "the Defendant violated our Client’s right to privacy by forcing him to take an illegitimate drug test."
+  },
+  {
+    "Claim": "Violation of the California Fair Pay Act",
+    "Description": "the Defendant paid our Client less than rates paid to other employees of the opposite sex or different races for substantially similar work."
+  },
+  {
+    "Claim": "Conversion",
+    "Description": "the Defendant failed to return our Client’s personal property."
+  },
+  {
+    "Claim": "Assault and Battery",
+    "Description": "the Defendant employee attacked our Client while acting within the course and scope of their employment duties with the Defendant."
+  },
+  {
+    "Claim": "Failure to Provide Timely Records and Inspection",
+    "Description": "Although our Client requested his personnel and payroll records, the Defendant did not provide our Client with timely records and inspection."
+  }
+]
