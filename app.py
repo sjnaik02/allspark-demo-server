@@ -13,6 +13,10 @@ CORS(app)
 # Load environment variables
 load_dotenv()
 
+@app.route('/', methods=['GET'])
+def index():
+    return jsonify({'message': 'Hello, World!'}), 200
+
 @app.route('/analyze', methods=['GET'])
 def analyze_document():
     try:
