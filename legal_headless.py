@@ -1,25 +1,16 @@
 import os
-import sys
-import subprocess
-import tempfile
 import json
-import shutil
 from dotenv import load_dotenv
 
-from typing import List, Optional
+
 from langchain_community.chat_models import ChatOpenAI
 from langchain_community.document_loaders import PDFMinerLoader
 from kor.extraction import create_extraction_chain
-from kor.nodes import Object, Text, Number
 from langchain_community.vectorstores import Chroma
 
 from pydantic import BaseModel, Field, validator
 from kor import extract_from_documents, from_pydantic, create_extraction_chain
 from langchain_community.callbacks import get_openai_callback
-from langchain.schema import Document
-from langchain.prompts import PromptTemplate
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_community.document_loaders.csv_loader import CSVLoader
 from langchain.text_splitter import CharacterTextSplitter
 
 from langchain_openai import ChatOpenAI
@@ -29,13 +20,9 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.chains import create_retrieval_chain
 
-from docx import Document
-from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
-from docx.oxml.ns import qn
-from docx.oxml import OxmlElement
-from docx.shared import Pt
+from lib import load_chunk_pdf
 
-def main():
+def main(file_path = None):
 
     # Set up the OpenAI API key
     load_dotenv()
@@ -48,30 +35,14 @@ def main():
         api_key=openai_api_key
     )
 
-
-    # remove embeddings database
-    #tempDir = "./legal_db"
-    #if(os.path.isdir(tempDir)):
-    #    shutil.rmtree(tempDir)
-
-    def load_chunk_pdf(pdf_file):
-        print("Loading " + pdf_file)
-        # Read documents
-        documents = []
-        # Load the PDF file
-        loader = PDFMinerLoader(pdf_file)
-        documents.extend(loader.load())
-
-        # Split the documents into chunks
-        text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
-        chunked_documents = text_splitter.split_documents(documents)
-
-        return chunked_documents
-
     print("Opening case files...")
 
     # Usage
-    legalfile = "./content/legal/testMatter.pdf"
+    if file_path is None:
+        legalfile = "./content/legal/testMatter2.pdf"
+    else:
+        legalfile = file_path
+    print(legalfile)
     chunked_documents = load_chunk_pdf(legalfile)
     texts=chunked_documents
 
