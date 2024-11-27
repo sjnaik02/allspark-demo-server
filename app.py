@@ -8,11 +8,13 @@ from dotenv import load_dotenv
 from legal_headless import main as analyze_legal_document
 
 app = Flask(__name__)
-# Enable CORS for your Next.js frontend
+# Enable CORS for all origins in development
+# In production, you might want to restrict this to your frontend domain
 CORS(app)
 
 # Configure upload folder
-UPLOAD_FOLDER = 'uploads'
+# On Render, we need to use a temporary directory that we have write access to
+UPLOAD_FOLDER = '/tmp/uploads' if os.getenv('RENDER') else 'uploads'
 ALLOWED_EXTENSIONS = {'pdf'}
 
 # Create uploads directory if it doesn't exist
@@ -75,5 +77,7 @@ def analyze_document():
         }), 500
 
 if __name__ == '__main__':
+    # Get port from environment variable or default to 42069
     port = int(os.getenv('PORT', 42069))
-    app.run(host='0.0.0.0', port=port, debug=True)
+    # In production, we listen on 0.0.0.0
+    app.run(host='0.0.0.0', port=port)
